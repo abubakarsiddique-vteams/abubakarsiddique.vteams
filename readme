@@ -1,0 +1,37 @@
+/**************************************/
+
+* Project information
+
+/**************************************/
+This code is taked from my project compassmoda here is the URL available
+http://shop.compassmoda.com/
+
+
+/**************************************/
+
+* Code information
+
+/**************************************/
+
+This code will search products using gilt API.
+
+just enter the keyword in input field for example "jeans"
+
+here is the information of the files and their functionality
+
+
+includes/process.php
+if product keyword is set to search than it will search records against keyword and prepare result.
+
+utility/utility.php
+utility is the class that contains the function to create pagination.
+
+Classes/api_call.php
+this is api class that contain the api credentials.
+
+classes/product.php
+it is a product class that has a function search to search products that is extended by API class.
+
+lib/unirest
+in this folder there are api classes those are used to get products using CURL.
+

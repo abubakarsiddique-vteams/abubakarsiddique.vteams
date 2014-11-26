@@ -3,7 +3,7 @@
 * Project information
 
 /**************************************/
-This code is taked from my project compassmoda here is the URL available
+This code is taken from my project compassmoda here is the URL available
 http://shop.compassmoda.com/
 
 
@@ -27,11 +27,11 @@ utility/utility.php
 utility is the class that contains the function to create pagination.
 
 Classes/api_call.php
-this is api class that contain the api credentials.
+this is api class that contain the API credentials.
 
 classes/product.php
 it is a product class that has a function search to search products that is extended by API class.
 
 lib/unirest
-in this folder there are api classes those are used to get products using CURL.
+in this folder there are API classes those are used to get products using CURL.
 
